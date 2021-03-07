@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Generator</title>
+</head>
+<body>
+<h1>Haiku Generator</h1><br>
+<h2>Enter a word between 1-5 syllables, and separate the syllables with a (-) </h2>
+<form id="haikuGen">
+    <label for="word">Enter Word Here:</label>
+    <input type="text" id="word" name="word">
+</form><br>
+<button id="addWord" onclick="addWord()">Add Word</button><br>
+<button id="generate" onclick="generateHaiku()">Generate Haiku</button>
+<p id="poem"></p>
+<script src="haiku.js"></script>
+</body>
+</html>
